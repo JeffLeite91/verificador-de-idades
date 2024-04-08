@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Indentificador de Idades</title>
+</head>
+
+<body>
+    <header>
+        <h1>Verificador de Idades</h1>
+    </header>
+    <section class="content">
+        <div class="form-container">
+            <p> Ano de Nascimento:
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc"> Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem"> Feminino</label>
+            </p>
+            <p class="button">
+                <input type="button" id="botao" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+
+        <div class="img-container"></div>
+        
+        <div id="res">
+            Preencha os dados acima para ver o resultado.
+        </div> 
+        
+        
+    </section>
+    <footer>
+        <p> &copy; JeffLeite</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
